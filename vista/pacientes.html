@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pacientes</title>
+
+    <!-- ESTILOS CSS BOOTSTRAP-->
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+
+    <!-- ESTILOS CSS ICONOS FONTAWESOME-->
+    <link rel="stylesheet" href="../assets/css/all.min.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&family=Quicksand:wght@300;600&display=swap');
+
+        *{
+            font-family: 'Open Sans', sans-serif;
+            font-family: 'Quicksand', sans-serif;
+        }
+        h3{
+            text-align: center;
+            font-weight: 800;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="card">
+            <div class="card-header">
+                <h3>Registro de Pacientes</h3>
+            </div>
+            <div class="card-body">
+                <input type="hidden" name="idPaciente" id="idPaciente">
+                <div class="row">
+                    <div class="col-md-6">
+                        <label for="nombres">Nombre:</label>
+                        <input type="text" name="nombres" id="nombres" placeholder="Nombre"  class="form-control" autofocus>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="apellidos">Apellido:</label>
+                        <input type="text" name="apellidos" id="apellidos" placeholder="Apellido" class="form-control" autofocus>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <label for="cedula">Cedula:</label>
+                        <input type="text" name="cedula" id="cedula" placeholder="Cedula" class="form-control" autofocus>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="telefono">Telefono:</label>
+                        <input type="text" name="telefono" id="telefono" placeholder="Telefono" class="form-control" autofocus>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <label for="sexo">Sexo:</label>
+                        <input type="text" name="sexo" id="sexo" placeholder="Sexo" class="form-control" autofocus>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="direccion">Direccion:</label>
+                        <input type="text" name="direccion" id="direccion" placeholder="Direccion" class="form-control" autofocus>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <label for="nacimiento">Nacimiento:</label>
+                        <input type="date" name="nacimiento" id="nacimiento placeholder="Fecha de nacimiento" class="form-control" >
+                    </div>
+                    <div class="col-md-6">
+                        <label for="fecha_creacion">Fecha:</label>
+                        <input type="date" name="fecha_creacion" id="fecha_creacion" placeholder="Fecha de creacion" class="form-control" >
+                    </div>
+                   
+                </div>
+
+
+                
+            </div>
+            <div class="card-footer">
+
+            </div>
+        </div>
+    </div>
+
+    
+</body>
+    <!-- JAVASCRIPT-->
+    <script src="../assets/js/all.min.js"></script>
+    <script src="../assets/js/bootstrap.min.js"></script>
+    <script src="../assets/js/jquery.js"></script>
+    <script src="../js/paciente.js"></script>
+</html>

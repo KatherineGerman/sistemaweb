@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&family=Quicksand:wght@300;600&display=swap');
+
+body {
+    background-color: rgb(235, 235, 235);
+margin: 0;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Quicksand', sans-serif;
+
+}
+#logo1 {
+    position: absolute;
+    top: 30px;;
+    width:20%;
+    margin: 8px 0px;
+    padding: 0%;
+    margin-left: 80px;
+   
+}
+#logord{
+    margin: 0;
+    padding: 0;
+    width: 16%;
+    margin-left: 71%;
+    margin-top: 19px;
+}
+input[type="search"] {
+    
+    width: 16%;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    margin: 8px  0;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 11px;
+    
+  }
+
+  #search input{
+
+      margin-left: 71%;
+  }
+
+ 
+
+  .icon-search {
+    position: relative;
+  }
+  
+  .icon-search i {
+    position: absolute;
+    left: 84%;
+    top: 8px;
+    padding: 9px 8px;
+    color: #aaa;
+    transition: 0.3s;
+  }
+  .enlaces{
+      position: absolute;
+      right: 12.8%;
+      font-size: 13px;
+     
+  }
+  .enlaces a{
+      color: rgb(95, 93, 93);
+      text-decoration: none;
+      text-transform: uppercase;
+      font-weight: bold;
+  }
+  .links{
+      margin: 10px;
+  }
+
+.menu{
+background: linear-gradient(50deg, rgb(7, 5, 20) 0%, rgb(40, 24, 90) 100%, rgb(22, 4, 63) 100%);
+overflow: hidden;
+margin-top: 80px;
+padding: 10px;
+
+}
+
+.menu a {
+float: left;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+font-weight: bold;
+margin-left: 20px;
+
+}
+.menu a:hover{
+background-color: rgba(221, 221, 221, 0.479);
+color: white;
+border-radius: 10px;
+padding: 12px;
+}
+
